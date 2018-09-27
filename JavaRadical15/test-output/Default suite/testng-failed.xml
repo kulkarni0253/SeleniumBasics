@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="blablacarB15.tests.profile.personalinfo.CreateProfileScenarios">
+      <class name="com.prac.tal.HalfEbayTest">
         <methods>
-          <include name="createUserProfilewithMandatoryField"/>
+          <include name="SetUp"/>
+          <include name="HalfEbayRegPage"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- blablacarB15.tests.profile.personalinfo.CreateProfileScenarios -->
+      </class> <!-- com.prac.tal.HalfEbayTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

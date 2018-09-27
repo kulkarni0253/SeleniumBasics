@@ -1,81 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16979" started-at="2018-07-14T19:50:55Z" finished-at="2018-07-14T19:51:12Z">
+  <suite name="Default suite" duration-ms="36617" started-at="2018-09-26T20:03:05Z" finished-at="2018-09-26T20:03:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16979" started-at="2018-07-14T19:50:55Z" finished-at="2018-07-14T19:51:12Z">
-      <class name="blablacarB15.tests.profile.personalinfo.CreateProfileScenarios">
-        <test-method status="FAIL" signature="createUserProfilewithMandatoryField()[pri:0, instance:blablacarB15.tests.profile.personalinfo.CreateProfileScenarios@34cd072c]" name="createUserProfilewithMandatoryField" duration-ms="16952" started-at="2018-07-14T19:50:55Z" finished-at="2018-07-14T19:51:12Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //button[@class='c-topbar-element c-topbar-element--button js-drawer-trigger']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'
-System info: host: 'DESKTOP-0IMA24S', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\HARSHA~1\AppData\Local\Temp\rust_mozprofile.49Fowy2NVHea, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=24940, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: e20d40b0-5cd5-4279-9c75-3c75e95f84dd
-*** Element info: {Using=xpath, value=//button[@class='c-topbar-element c-topbar-element--button js-drawer-trigger']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='c-topbar-element c-topbar-element--button js-drawer-trigger']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.2', revision: '10229a9020', time: '2017-08-21T17:54:21.164Z'
-System info: host: 'DESKTOP-0IMA24S', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\HARSHA~1\AppData\Local\Temp\rust_mozprofile.49Fowy2NVHea, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=24940, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: e20d40b0-5cd5-4279-9c75-3c75e95f84dd
-*** Element info: {Using=xpath, value=//button[@class='c-topbar-element c-topbar-element--button js-drawer-trigger']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-at blablacarB15.pomLib.profile.personalinfo.ProfilePerInfoPage.gotoprofilepage(ProfilePerInfoPage.java:20)
-at blablacarB15.tests.profile.personalinfo.CreateProfileScenarios.createUserProfilewithMandatoryField(CreateProfileScenarios.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test name="Default test" duration-ms="36617" started-at="2018-09-26T20:03:05Z" finished-at="2018-09-26T20:03:42Z">
+      <class name="com.prac.tal.HalfEbayTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="SetUp" is-config="true" duration-ms="9690" started-at="2018-09-26T20:03:06Z" finished-at="2018-09-26T20:03:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUserProfilewithMandatoryField -->
-      </class> <!-- blablacarB15.tests.profile.personalinfo.CreateProfileScenarios -->
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="HalfEbayRegPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="HalfEbayRegPage" duration-ms="2701" started-at="2018-09-26T20:03:16Z" data-provider="getData" finished-at="2018-09-26T20:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test12344@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc123131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HalfEbayRegPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="teardown" is-config="true" duration-ms="861" started-at="2018-09-26T20:03:18Z" finished-at="2018-09-26T20:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="SetUp" is-config="true" duration-ms="7691" started-at="2018-09-26T20:03:19Z" finished-at="2018-09-26T20:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="HalfEbayRegPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="HalfEbayRegPage" duration-ms="2401" started-at="2018-09-26T20:03:27Z" data-provider="getData" finished-at="2018-09-26T20:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tomy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Petery]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test12@gmamil.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[def4234331]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HalfEbayRegPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="teardown" is-config="true" duration-ms="909" started-at="2018-09-26T20:03:29Z" finished-at="2018-09-26T20:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="SetUp" is-config="true" duration-ms="7633" started-at="2018-09-26T20:03:30Z" finished-at="2018-09-26T20:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="HalfEbayRegPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="HalfEbayRegPage" duration-ms="3109" started-at="2018-09-26T20:03:38Z" data-provider="getData" finished-at="2018-09-26T20:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harshal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kulkarni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hahah@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asdf3432143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HalfEbayRegPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.prac.tal.HalfEbayTest@4b553d26]" name="teardown" is-config="true" duration-ms="1061" started-at="2018-09-26T20:03:41Z" finished-at="2018-09-26T20:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.prac.tal.HalfEbayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
